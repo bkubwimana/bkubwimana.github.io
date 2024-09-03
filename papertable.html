@@ -12,10 +12,10 @@
         <p>Thermal Software Engineer</p>
         <nav>
             <ul>
-                <li><a href="index.html">Who</a></li>
-                <li><a href="index.html">What</a></li>
-                <li><a href="index.html">Why</a></li>
-                <li><a href="index.html">Where</a></li>
+                <li><a href="#about">Who</a></li>
+                <li><a href="#what">What</a></li>
+                <li><a href="#why">Why</a></li>
+                <li><a href="#contact">Where</a></li>
             </ul>
         </nav>
     </header>
@@ -54,11 +54,6 @@
             <!-- Table body will be populated by JavaScript -->
         </tbody>
     </table>
-
-    <footer>
-        <p>&copy; 2024 Benjamin Kubwimana</p>
-        <p>Last updated: <span id="lastUpdated"></span></p>
-    </footer>
 
     <script>
         const table = document.getElementById('paperTable');
@@ -112,8 +107,12 @@
                 tbody.appendChild(row);
             });
         }
+
+        function updatePaperCount(count) {
+            paperCountElement.textContent = `So far, we have read ${count} papers. Let's keep it up!`;
+        }
         function updateSearchCount(count) {
-            searchCountElement.textContent = `${count} papers.`;
+            searchCountElement.textContent = `Your search returned ${count} papers. Nice!`;
         }
 
         function setupEventListeners() {
@@ -182,9 +181,6 @@
 
             tbody.append(...rows);
         }
-    </script>
-    <script>
-        document.getElementById('lastUpdated').textContent = new Date(document.lastModified).toLocaleDateString();
     </script>
 </body>
 </html>
