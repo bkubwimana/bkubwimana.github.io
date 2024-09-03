@@ -3,44 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Personal webpage of [Your Name]">
-    <title>[Your Name] | Software Engineer</title>
+    <meta name="description" content="Personal webpage of Benjamin Kubwimana">
+    <title>BEN</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
-        <h1>[Your Name]</h1>
-        <p>Software Engineer | [Your Specialization]</p>
+        <h1>Benjamin Kubwimana</h1>
+        <p>Thermal Software Engineer</p>
         <nav>
             <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">Who</a></li>
+                <li><a href="#what">What</a></li>
+                <li><a href="#why">Why</a></li>
+                <li><a href="#contact">Where</a></li>
             </ul>
         </nav>
     </header>
 
     <section id="about">
-        <h2>About Me</h2>
-        <p>I'm a software engineer with experience in [your skills/experience]. I specialize in [your specialization].</p>
+        <h2>Who</h2>
+        <p>I'm a software engineer with experience in developing infrastructure tools for hardware development. 
+            I have research interests in distributed inference HW/SW systems.</p>
     </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
+    <section id="what">
+        <h2>What</h2>
         <ul>
-            <li><a href="https://github.com/yourusername/project1">Project 1</a> - Brief description of project 1.</li>
-            <li><a href="https://github.com/yourusername/project2">Project 2</a> - Brief description of project 2.</li>
-            <!-- Add more projects as needed -->
+            <li><a href="https://scholar.google.com/citations?user=TUsNMc8AAAAJ&hl=en">Education</a> - Aspiring PhD student in areas of edge HW/SW co-design with applications in inference, distributed computing, and spiking networks.</li>
+            <li><a href="https://www.linkedin.com/in/benjamink-1">Professional Experience</a> - Working in hardware development, building hardware and software solutions for chip thermal management.</li>
+        </ul>
+    </section>
+
+    <section id="why">
+        <h2>Why</h2>
+        <p>This page is a light repository to store my CV and academic updates:</p>
+        <ul>
+            <li><a href="paper list">Promising academic papers I find interesting</a></li>
+            <li><a href="books">Promising book reads</a></li>
         </ul>
     </section>
 
     <section id="contact">
-        <h2>Contact</h2>
-        <p>You can reach me at <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+        <h2>Where</h2>
+        <p>You can reach me at <a href="mailto:benjamin.kubwimana@gatech.edu">benjamin.kubwimana@gatech.edu</a></p>
+        <p>
+            <a href="https://www.linkedin.com/in/benjamink-1">LinkedIn</a> | 
+            <a href="https://x.com/Benyam1nK">Twitter</a> | 
+            <a href="https://scholar.google.com/citations?user=TUsNMc8AAAAJ&hl=en">Google Scholar</a>
+        </p>
     </section>
 
     <footer>
-        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+        <p>&copy; 2024 Benjamin Kubwimana. All rights reserved.</p>
+        <p>Last updated: <span id="lastUpdated"></span></p>
     </footer>
+
+    <script>
+        document.getElementById('lastUpdated').textContent = new Date(document.lastModified).toLocaleDateString();
+    </script>
 </body>
 </html>
