@@ -10,13 +10,20 @@ body {
 header {
     background-color: #333;
     color: #fff;
-    padding: 10px 0;
+    padding: 5px 0; /* Reduced padding */
     text-align: center;
+    font-size: 16px; /* Reduced font size */
+}
+
+header h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 24px; /* Reduce header font size */
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 nav ul li {
@@ -37,16 +44,67 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h1, h2 {
+h2 {
+    margin-top: 0; /* Remove top margin */
     color: #333;
 }
 
 footer {
     text-align: center;
-    padding: 10px 0;
+    padding: 5px 0; /* Reduced padding */
     background-color: #333;
     color: #fff;
-    position: fixed;
+    font-size: 14px; /* Reduced font size */
+    position: relative; /* Change from fixed to relative */
     bottom: 0;
     width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+.search-inputs {
+    margin-bottom: 10px;
+}
+.search-inputs input {
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+/* Optional: Add responsive design for smaller screens */
+@media (max-width: 768px) {
+    table, th, td {
+        display: block;
+        width: 100%;
+    }
+    th, td {
+        box-sizing: border-box;
+        text-align: right;
+        padding-left: 50%;
+    }
+    th {
+        text-align: left;
+    }
+    td {
+        position: relative;
+        padding-left: 50%;
+    }
+    td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 45%;
+        padding-left: 10px;
+        font-weight: bold;
+        text-align: left;
+    }
 }

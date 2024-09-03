@@ -1,0 +1,29 @@
+[
+    {
+        "title": "Distributed Inference and Fine-tuning of Large Language Models Over The Internet",
+        "author": "Alexander Borzunov, Max Ryabinin, Artem Chumachenko, Dmitry Baranchuk, Tim Dettmers, Younes Belkada, Pavel Samygin, Colin Raffel",
+        "year": "2023",
+        "topic": "Machine Learning",
+        "venue": "Conference on Neural Information Processing Systems (NeurIPS) 2023",
+        "description": "Large language models (LLMs) are useful in many NLP tasks and become more capable with size, with the best open-source models having over 50 billion parameters. This work investigates methods for cost-efficient inference and fine-tuning of LLMs, comparing local and distributed strategies. We develop fault-tolerant inference algorithms and load-balancing protocols and showcase these in Petals - a decentralized system that runs Llama 2 (70B) and BLOOM (176B) over the Internet up to 10x faster than offloading for interactive generation.",
+        "link": "https://doi.org/10.48550/arXiv.2312.08361"
+    },
+    {
+        "title": "Mastering LLM Techniques: Inference Optimization",
+        "author": "Shashank Verma and Neal Vaidya",
+        "year": "2023",
+        "topic": "Generative AI",
+        "venue": "NVIDIA Blog",
+        "description": "This blog post discusses advanced techniques for optimizing inference of large language models (LLMs). It covers various strategies and best practices for improving efficiency in LLM inference, focusing on recent advancements and optimization techniques.",
+        "link": "https://developer.nvidia.com/blog/mastering-llm-techniques-inference-optimization/"
+    },
+    {
+        "title": "CAAD: Computer Architecture for Autonomous Driving",
+        "author": "Shaoshan Liu, Jie Tang, Zhe Zhang, Jean-Luc Gaudiot",
+        "year": "2017",
+        "topic": "Hardware Architecture",
+        "venue": "IEEE Computer Magazine",
+        "description": "We describe the computing tasks involved in autonomous driving and examine existing autonomous driving computing platform implementations. To enable autonomous driving, the computing stack needs to provide high performance, low power consumption, and low thermal dissipation at low cost. We discuss possible approaches to design computing platforms that will meet these needs.",
+        "link": "https://doi.org/10.48550/arXiv.1702.01894"
+    }
+]
