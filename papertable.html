@@ -7,7 +7,18 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1>Here's where I keep a list of papers I have read.</h1>
+    <header>
+        <h1>Benjamin Kubwimana</h1>
+        <p>Thermal Software Engineer</p>
+        <nav>
+            <ul>
+                <li><a href="#about">Who</a></li>
+                <li><a href="#what">What</a></li>
+                <li><a href="#why">Why</a></li>
+                <li><a href="#contact">Where</a></li>
+            </ul>
+        </nav>
+    </header>
     <p>
         This list has been inspiring and helpful in broading my knowledge on several areas.
     </p>
@@ -43,6 +54,11 @@
             <!-- Table body will be populated by JavaScript -->
         </tbody>
     </table>
+
+    <footer>
+        <p>&copy; 2024 Benjamin Kubwimana</p>
+        <p>Last updated: <span id="lastUpdated"></span></p>
+    </footer>
 
     <script>
         const table = document.getElementById('paperTable');
