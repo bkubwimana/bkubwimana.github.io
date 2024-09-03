@@ -1,6 +1,8 @@
 html, body {
-    height: 100%; /* Ensure that the body and html take full height */
+    height: 100%; /* Ensure the body and html take up the full height of the viewport */
     margin: 0; /* Remove default margin */
+    display: flex;
+    flex-direction: column;
 }
 
 body {
@@ -8,33 +10,26 @@ body {
     flex-direction: column;
 }
 
-header, footer {
+header {
     background-color: #333;
     color: #fff;
-}
-
-header {
-    padding: 2px 0; /* Adjust padding as needed */
+    padding: 10px 0; /* Adjust padding to your liking */
     text-align: center;
-    font-size: 14px; /* Adjust font size */
+    font-size: 16px; /* Adjust font size */
 }
 
 header h1 {
     margin: 0;
-    font-size: 20px; /* Adjust font size */
+    font-size: 24px; /* Adjust font size */
 }
 
 footer {
-    padding: 2px 0; /* Adjust padding as needed */
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0; /* Adjust padding to your liking */
     text-align: center;
-    font-size: 12px; /* Adjust font size */
-    margin-top: auto; /* Push the footer to the bottom */
-}
-
-main {
-    flex: 1; /* Make sure the main content takes up the remaining space */
-    padding: 20px; /* Adjust padding as needed */
-    background-color: #f4f4f4; /* Background color of main content */
+    font-size: 14px; /* Adjust font size */
+    margin-top: auto; /* Pushes footer to the bottom */
 }
 
 table {
