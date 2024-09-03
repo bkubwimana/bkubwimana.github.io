@@ -1,83 +1,101 @@
-html, body {
-    height: 100%; /* Ensure the body and html take up the full height of the viewport */
-    margin: 0; /* Remove default margin */
-    display: flex;
-    flex-direction: column;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-}
-
 header {
     background-color: #333;
     color: #fff;
-    padding: 10px 0; /* Adjust padding to your liking */
+    padding: 2px 0; /* Further reduced padding */
     text-align: center;
-    font-size: 16px; /* Adjust font size */
+    font-size: 14px; /* Reduced font size further */
 }
 
 header h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 20px; /* Reduce header font size */
+}
+
+
+header h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 24px; /* Reduce header font size */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
     margin: 0;
-    font-size: 24px; /* Adjust font size */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0; /* Remove top margin */
+    color: #333;
 }
 
 footer {
+    text-align: center;
+    padding: 2px 0; /* Further reduced padding */
     background-color: #333;
     color: #fff;
-    padding: 10px 0; /* Adjust padding to your liking */
-    text-align: center;
-    font-size: 14px; /* Adjust font size */
-    margin-top: auto; /* Pushes footer to the bottom */
+    font-size: 12px; /* Reduced font size further */
+    position: relative; /* Ensure footer is at the bottom */
+    bottom: 0;
+    width: 100%;
 }
+
 
 table {
     border-collapse: collapse;
     width: 100%;
 }
-
 th, td {
     border: 1px solid black;
     padding: 8px;
     text-align: left;
 }
-
 th {
     background-color: #f2f2f2;
     cursor: pointer;
 }
-
 .search-inputs {
     margin-bottom: 10px;
 }
-
 .search-inputs input {
     margin-right: 10px;
     margin-bottom: 5px;
 }
-
+/* Optional: Add responsive design for smaller screens */
 @media (max-width: 768px) {
     table, th, td {
         display: block;
         width: 100%;
     }
-
     th, td {
         box-sizing: border-box;
         text-align: right;
         padding-left: 50%;
     }
-
     th {
         text-align: left;
     }
-
     td {
         position: relative;
         padding-left: 50%;
     }
-
     td::before {
         content: attr(data-label);
         position: absolute;
