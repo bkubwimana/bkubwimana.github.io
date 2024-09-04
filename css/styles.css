@@ -1,26 +1,34 @@
+body {
+    margin: 100px;
+    padding: 0px;
+}
+/* Header styling */
 header {
     background-color: #333;
     color: #fff;
-    padding: 2px 0; /* Further reduced padding */
+    padding: 2px 10px; /* Reduced padding with left and right */
     text-align: center;
     font-size: 14px; /* Reduced font size further */
+    position: fixed; /* Make the header fixed */
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%; /* Ensure header spans the full width */
+    z-index: 1000; /* Ensure it stays above other content */
 }
 
+/* Header title styling */
 header h1 {
     margin: 0; /* Remove default margin */
-    font-size: 20px; /* Reduce header font size */
+    font-size: 20px; /* Adjust header font size */
 }
 
-
-header h1 {
-    margin: 0; /* Remove default margin */
-    font-size: 24px; /* Reduce header font size */
-}
-
+/* Navigation menu styling */
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    display: inline-block; /* Adjust to fit the inline elements */
 }
 
 nav ul li {
@@ -34,51 +42,62 @@ nav ul li a {
 }
 
 section {
-    margin: 20px;
+    margin: 60px 20px 0px 10px; /* Added top margin to account for the fixed header */
     padding: 20px;
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+
+/* Subheadings styling */
 h2 {
     margin-top: 0; /* Remove top margin */
     color: #333;
 }
 
+/* Footer styling */
 footer {
     text-align: center;
-    padding: 2px 0; /* Further reduced padding */
+    padding: 2px 10px; /* Further reduced padding with left and right */
     background-color: #333;
     color: #fff;
     font-size: 12px; /* Reduced font size further */
-    position: relative; /* Ensure footer is at the bottom */
+    position: fixed; /* Ensure footer is at the bottom */
     bottom: 0;
-    width: 100%;
+    left: 0;
+    right: 0;
+    width: 100%; /* Ensure footer spans the full width */
 }
 
-
+/* Table styling */
 table {
     border-collapse: collapse;
     width: 100%;
 }
+
 th, td {
     border: 1px solid black;
     padding: 8px;
     text-align: left;
 }
+
 th {
     background-color: #f2f2f2;
     cursor: pointer;
 }
+
+/* Search inputs styling */
 .search-inputs {
     margin-bottom: 10px;
 }
+
 .search-inputs input {
     margin-right: 10px;
     margin-bottom: 5px;
 }
-/* Optional: Add responsive design for smaller screens */
+
+/* Responsive design for smaller screens */
 @media (max-width: 768px) {
     table, th, td {
         display: block;
