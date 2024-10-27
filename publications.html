@@ -47,8 +47,8 @@
                         ${publication.journal}<br>
                         ${publication.year}
                         <span class="pdf-icons">
-                            <a href="${publication.pdf}" target="_blank"><img src="media/pdf-icon.png" alt="PDF icon for paper"></a>
-                            ${publication.slides !== 'none' ? `<a href="${publication.slides}" target="_blank"><img src="media/pdf-icon.png" alt="PDF icon for slides"></a>` : ''}
+                            <a href="${publication.pdf}" target="_blank">&#128196;</a> <!-- Unicode character for paper icon -->
+                            ${publication.slides !== 'none' ? `<a href="${publication.slides}" target="_blank">&#128196;</a>` : ''} <!-- Unicode character for slides icon -->
                         </span>
                     </div>
                 `;

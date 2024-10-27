@@ -39,7 +39,7 @@
         "year": "2004",
         "topic": "Software Development",
         "venue": "Apress",
-        "description": "A popular blog about software development, management, and the business of technology. It covers a wide range of topics, from technical advice to management tips.",
+        "description": "Great book software development, management, and the business of technology. It covers a wide range of topics, from technical advice to management tips.",
         "link": "https://www.joelonsoftware.com/"
     },
     {
@@ -59,7 +59,7 @@
             "Filippo de Monte",
             "James V. Beck"
         ],
-        "year": "2002",
+        "year": "2023",
         "topic": "Heat Transfer",
         "venue": "Wiley",
         "description": "This book explores the challenges and techniques for solving inverse heat conduction problems, which are often ill-posed due to their sensitivity to measurement noise and uncertainties.",
