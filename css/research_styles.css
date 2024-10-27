@@ -1,0 +1,29 @@
+#research h1 {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+/* Project title styling */
+#research article h2 {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+/* Project description styling */
+#research article p {
+    font-size: 1em;
+    font-weight: normal;
+    margin-bottom: 1em;
+    line-height: 1.6;
+}
+
+section {
+    margin: 60px 20px 0px 10px; /* Adjust margins as needed */
+    padding: 20px; /* Adjust padding as needed */
+    background-color: transparent; /* Remove background color */
+    border-radius: 0; /* Remove rounded corners */
+    box-shadow: none; /* Remove shadow */
+}

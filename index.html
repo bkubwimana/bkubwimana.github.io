@@ -9,44 +9,147 @@
 </head>
 <body>
     <header>
-        <h1>Benjamin Kubwimana</h1>
-        <p>Thermal Software Engineer</p>
         <nav>
             <ul>
-                <li><a href="#about">Who</a></li>
-                <li><a href="#what">What</a></li>
-                <li><a href="#why">Why</a></li>
-                <li><a href="#contact">Where</a></li>
+                <li>
+                    <a href="#Home">Home</a>
+                    <ul>
+                        <li><a href="#Who">Who</a></li>
+                        <li><a href="#what">What</a></li>
+                        <li><a href="#why">Why</a></li>
+                        <li><a href="#Where">Where</a></li>
+                    </ul>
+                </li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="awards.html">Awards</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="about">
+    <!--add profile picture -->
+    <div class="profile-container">
+        <div class="profile-text">
+            <h1>Benjamin Kubwimana</h1>
+            <p>NVIDIA</p>
+            <p>benjamin&#46kubwimana&#64gatech&#46edu</p>
+    <!-- add CV and google scholar and GitHub links-->
+            <a href="media/CV_Benjamin_Kubwimana.pdf" download>CV</a> |
+            <a href="https://scholar.google.com/citations?user=TUsNMc8AAAAJ&hl=en">Google Scholar</a> |
+            <a href="https://github.com/bkubwimana">GitHub</a>
+        </div>
+        <img src="media/prof.jpg" alt="Benjamin Kubwimana" class="profile-picture">
+    </div>
+
+    <section id="Who">
         <h2>Who</h2>
-        <p>I'm Benjamin Kubwimana. An aspiring PhD student with experience in developing software infrastructure tools for hardware development. 
-            I have research interests in distributed inference HW/SW systems.</p>
+        <p>
+            I am a hardware automation engineer at NVIDIA working on developing hardware and software systems for GPUs, focusing on thermal management solutions that optimize performance and enhance energy efficiency in high-performance computing systems. 
+            I collaborate with Research Scientists at NVIDIA to profile and understand energy performance on Tegra SoC under various robotic AI workloads; Vision Language models, multi-sensory workloads etc. 
+            I am also an aspiring PhD Student with research interests in novel microarchitecture for accelerated inference on edge systems used in robotics, medical and IoT. 
+            I previously explored Machine learning assisted energy modeling, further detailed in my paper "A novel approach for optimizing building energy models using machine learning algorithms"
+        </p>
     </section>
 
     <section id="what">
         <h2>What</h2>
         <ul>
-            <li><a href="https://scholar.google.com/citations?user=TUsNMc8AAAAJ&hl=en">Education</a> - Aspiring PhD student in areas of edge HW/SW co-design with applications in inference, distributed computing, and spiking networks.</li>
-            <li><a href="https://www.linkedin.com/in/benjamink-1">Professional Experience</a> - Working in hardware development, building hardware and software solutions for chip thermal management.</li>
+            <h3>Education</h3>
+            <ul class="education-list">
+                <li>
+                    <div class="education-item">
+                        <strong>
+                            Georgia Institute of Technology
+                            <span class="dates">Jan 2023 - Aug 2025</span>
+                        </strong>
+                        <p>Master of Science in Computer Engineering</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="education-item">
+                        <strong>
+                            Florida Institute of Technology
+                            <span class="dates">May 2020 - Dec 2021</span>
+                        </strong>
+                        <p>Master of Science in Mechanical Engineering</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="education-item">
+                        <strong>
+                            Florida Institute of Technology
+                            <span class="dates">Aug 2016 - May 2020</span>
+                        </strong>
+                        <p>Bachelor of Science in Mechanical Engineering</p>
+                        <p>Minor in Computer Engineering</p>
+                    </div>
+                </li>
+            </ul>
+            
+            <h3>Professional Experience</h3>
+            <ul class="experience-list">
+                <li>
+                    <div class="experience-item">
+                        <p class="job-title">Hardware Automation Engineer</p>
+                        <div class="company-info">
+                            <strong>NVIDIA Corporation</strong>
+                            <span class="dates">May 2022 - Present</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="experience-item">
+                        <p class="job-title">Hardware Engineer</p>
+                        <div class="company-info">
+                            <strong>Meta Platforms</strong>
+                            <span class="dates">May 2021 - Aug 2021</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="experience-item">
+                        <p class="job-title">Hardware Engineering Intern</p>
+                        <div class="company-info">
+                            <strong>X (Twitter)</strong>
+                            <span class="dates">May 2020 - Aug 2020</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="experience-item">
+                        <p class="job-title">Research Assistant</p>
+                        <div class="company-info">
+                            <strong>Florida Institute of Technology</strong>
+                            <span class="dates">Aug 2020 - Dec 2021</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="experience-item">
+                        <p class="job-title">Hardware Engineering Intern</p>
+                        <div class="company-info">
+                            <strong>Sun Nuclear Corp.</strong>
+                            <span class="dates">May 2019 - Aug 2019</span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
         </ul>
     </section>
 
     <section id="why">
         <h2>Why</h2>
-        <p>This page is for academic updates and CV display:</p>
+        <p>I have witnessed technology's transformative power and profound impact on society; <br>
+            I am committed to advancing state-of-the-art computing technologies that are accessible and inclusive—ensuring no one is left behind.</p>
         <ul>
-            <li><a href="papertable.html">Promising academic papers I find interesting</a></li>
-            <li><a href="books">Promising book reads</a></li>
+            <li><a href="papertable.html"> Academic papers I find interesting</a></li>
+            <li><a href="books"> Great book reads</a></li>
         </ul>
     </section>
 
-    <section id="contact">
+    <section id="Where">
         <h2>Where</h2>
-        <p>You can reach me at <a href="mailto:benjamin.kubwimana@gatech.edu">benjamin.kubwimana@gatech.edu</a></p>
+        <p>You can reach me at benjamin&#46kubwimana&#64gatech&#46edu</a></p>
         <p>
             <a href="https://www.linkedin.com/in/benjamink-1">LinkedIn</a> | 
             <a href="https://x.com/Benyam1nK">Twitter</a> | 

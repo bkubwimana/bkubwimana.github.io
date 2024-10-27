@@ -1,0 +1,34 @@
+[
+    {
+        "title": "A novel approach for optimizing building energy models using machine learning algorithms",
+        "authors": "B Kubwimana, H Najafi",
+        "journal": "Energies 16 (3), 1033",
+        "year": 2023,
+        "pdf": "BEM.pdf",
+        "slides": "none"
+    },
+    {
+        "title": "Numerical and experimental investigation of a thermoelectric-based radiant ceiling panel with phase change material for building cooling applications",
+        "authors": "M Seyednezhad, H Najafi, B Kubwimana",
+        "journal": "Sustainability 13 (21), 11936",
+        "year": 2021,
+        "pdf": "TEM1.pdf",
+        "slides": "none"
+    },
+    {
+        "title": "Thermoelectric-Based Radiant Cooling Systems: An Experimental and Numerical Investigation of Thermal Comfort",
+        "authors": "B Kubwimana, M Seyednezhad, H Najafi",
+        "journal": "Energies 16 (19), 6981",
+        "year": 2023,
+        "pdf": "TEM2.pdf",
+        "slides": "none"
+    },
+    {
+        "title": "A Machine Learning-Based Approach to Predict and Optimize the Performance of Zero Energy Building (ZEB): A Case Study for Florida",
+        "authors": "B Kubwimana",
+        "journal": "",
+        "year": 2021,
+        "pdf": "BEM_Thesis.pdf",
+        "slides": "thesis_slides.pdf"
+    }
+]

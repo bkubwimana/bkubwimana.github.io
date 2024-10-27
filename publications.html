@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal webpage of Benjamin Kubwimana">
+    <title>BEN</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html#Home">Home</a>
+                    <ul>
+                        <li><a href="index.html#Who">Who</a></li>
+                        <li><a href="index.html#What">What</a></li>
+                        <li><a href="index.html#Why">Why</a></li>
+                        <li><a href="index.html#Where">Where</a></li>
+                    </ul>
+                </li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="awards.html">Awards</a></li>
+            </ul>
+        </nav>
+    </header>
+<main>
+    <h2>Publications</h2>
+    <ul class="publications-list" id="publications-list">
+        <!-- Publications will be populated here by JavaScript -->
+    </ul>
+</main>
+<script>
+    // Fetch and display publications
+    fetch('pubs.json')
+        .then(response => response.json())
+        .then(data => {
+            const publicationsList = document.getElementById('publications-list');
+            data.forEach(publication => {
+                const listItem = document.createElement('li');
+                listItem.innerHTML = `
+                    <span class="publication-title">${publication.title}</span>
+                    <div class="publication-details">
+                        ${publication.authors}<br>
+                        ${publication.journal}<br>
+                        ${publication.year}
+                        <span class="pdf-icons">
+                            <a href="${publication.pdf}" target="_blank"><img src="media/pdf-icon.png" alt="PDF icon for paper"></a>
+                            ${publication.slides !== 'none' ? `<a href="${publication.slides}" target="_blank"><img src="media/pdf-icon.png" alt="PDF icon for slides"></a>` : ''}
+                        </span>
+                    </div>
+                `;
+                publicationsList.appendChild(listItem);
+            });
+        })
+        .catch(error => console.error('Error fetching publications:', error));
+</script>
+</body>
+</html>
