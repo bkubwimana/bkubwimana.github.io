@@ -81,7 +81,7 @@
         let sortOrder = {};
 
         // Load papers from JSON file
-        fetch('papers/table.json')
+        fetch('papers/book.json')
             .then(response => response.json())
             .then(papers => {
                 populateTable(papers);
