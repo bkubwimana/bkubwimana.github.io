@@ -1,104 +1,104 @@
 body {
-    margin: 100px auto; /* Center the body content */
+    margin: 100px auto; 
     padding: 0;
-    max-width: 1200px; /* Set a maximum width for the body content */
-    width: 90%; /* Set the width to 90% of the viewport width */
-    font-family: Arial, sans-serif; /* Optional: Set a default font */
+    max-width: 1200px; 
+    width: 90%; 
+    font-family: Arial, sans-serif; 
 }
 
-/* Profile container styling */
+
 .profile-container {
     display: flex;
-    align-items: center; /* Center items vertically */
-    margin: 100px; /* Add some margin around the container */
+    align-items: center; 
+    margin: 100px; 
     margin-left: 230px;
 }
 
-/* Profile text styling */
+
 .profile-text {
-    margin-right: 70px; /* Add space between text and image */
+    margin-right: 70px; 
 }
 
-/* Resize and position profile picture */
+
 img.profile-picture {
-    width: 300px; /* Set desired width */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 5%; /* Make it circular if desired */
+    width: 300px; 
+    height: auto; 
+    border-radius: 5%; 
 }
 
-/* Responsive adjustments */
+
 @media (max-width: 1200px) {
     body {
-        width: 95%; /* Increase the width on smaller screens */
+        width: 95%; 
     }
 }
 
 @media (max-width: 768px) {
     body {
-        width: 100%; /* Use full width on very small screens */
-        padding: 0 10px; /* Add some padding on the sides */
+        width: 100%; 
+        padding: 0 10px; 
     }
 }
 
-/* Responsive adjustments */
+
 @media (max-width: 768px) {
     .profile-container {
-        flex-direction: column; /* Stack items vertically on smaller screens */
-        align-items: center; /* Center items horizontally */
+        flex-direction: column; 
+        align-items: center; 
     }
 
     .profile-text {
-        text-align: center; /* Center text on smaller screens */
-        margin-right: 0; /* Remove right margin */
+        text-align: center; 
+        margin-right: 0; 
     }
 
     .profile-picture {
-        width: 120px; /* Reduce image size on smaller screens */
+        width: 120px; 
     }
 }
 
 p {
-    line-height: 1.6; /* Adjust the value to increase or decrease spacing */
+    line-height: 1.6; 
 }
 
-/* Remove underline from all links */
+
 a {
     text-decoration: none;
-    color: rgb(90, 145, 182); /* Optional: Inherit the color from the parent element */
+    color: rgb(90, 145, 182); 
 }
 
-/* Add hover effect for links */
+
 a:hover {
-    text-decoration: underline; /* Optional: Add underline on hover */
+    text-decoration: underline; 
 }
-/* Header styling */
+
 header {
     background-color: rgb(236, 235, 235);
     color: black !important;
-    padding: 10px 10px; /* Reduced padding with left and right */
+    padding: 10px 10px; 
     text-align: center;
-    font-size: 18px; /* Reduced font size further */
-    position: fixed; /* Make the header fixed */
+    font-size: 18px; 
+    position: fixed; 
     top: 0;
     left: 0;
     right: 0;
-    width: 100%; /* Ensure header spans the full width */
-    z-index: 1000; /* Ensure it stays above other content */
+    width: 100%; 
+    z-index: 1000; 
 }
 
 header a {
     color: black !important;
-    text-decoration: none; /* Remove underline */
+    text-decoration: none; 
 }
 
-/* Navigation menu styling */
+
 nav ul ul {
-    display: none; /* Hide nested lists by default */
+    display: none; 
     position: absolute;
 }
 
 nav ul li:hover > ul {
-    display: block; /* Show nested lists on hover */
+    display: block; 
 }
 
 nav ul {
@@ -118,18 +118,18 @@ nav ul li a {
     display: block;
 }
 
-/* Button styling for nested navigation items */
+
 nav ul ul li a {
-    padding: 10px 20px; /* Add padding for button-like appearance */
-    background-color: rgb(236, 235, 235); /* Button background color */
-    color: white; /* Button text color */
-    border: none; /* Remove default border */
-    border-radius: 5px; /* Rounded corners */
-    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    padding: 10px 20px; 
+    background-color: rgb(236, 235, 235); 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
 }
 
 nav ul ul li a:hover {
-    background-color: #6884a0; /* Darker background on hover */
+    background-color: #6884a0; 
 }
 
 nav ul ul li {
@@ -137,7 +137,7 @@ nav ul ul li {
 }
 
 section {
-    margin: 60px 20px 0px 10px; /* Added top margin to account for the fixed header */
+    margin: 60px 20px 0px 10px; 
     padding: 20px;
     background-color: #fff;
     border-radius: 5px;
@@ -145,34 +145,34 @@ section {
 }
 
 
-/* Subheadings styling */
+
 h2 {
-    margin-top: 0; /* Remove top margin */
+    margin-top: 0; 
     color: #333;
 }
 
 h3 {
     font-weight: normal;
     color: #333;
-    text-align: center; /* Center the text horizontally */
+    text-align: center; 
     font-size: 20px;
-    margin-top: 20px; /* Optional: Add some top margin for spacing */
-    position: relative; /* Required for positioning the pseudo-element */
+    margin-top: 20px; 
+    position: relative; 
 }
 
 h3::after {
     content: '';
     display: block;
-    width: 50px; /* Set the desired width of the underline */
-    height: 2px; /* Set the height of the underline */
-    background-color: #007BFF; /* Set the color of the underline */
-    margin: 0 auto; /* Center the underline */
+    width: 50px; 
+    height: 2px; 
+    background-color: #007BFF; 
+    margin: 0 auto; 
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: -5px; /* Adjust the position of the underline */
+    bottom: -5px; 
 }
-/* Education list styling */
+
 .education-list {
     list-style: none;
     padding: 0;
@@ -189,22 +189,22 @@ h3::after {
     line-height: 1;
 }
 
-/* Flexbox for institution name and dates */
+
 .education-item > strong {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 5px; /* Add a small margin below the institution name */
+    margin-bottom: 5px; 
 }
 
-/* Reset margin and padding for paragraphs inside education-item */
+
 .education-item p {
-    margin: 0; /* Remove default margin */
+    margin: 0; 
     padding: 0;
 }
 
 
-/* Experience list styling */
+
 .experience-list {
     list-style: none;
     padding: 0;
@@ -226,44 +226,44 @@ h3::after {
     font-weight: normal;
 }
 
-/* Company info styling */
+
 .company-info {
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Ensure space between elements */
+    justify-content: space-between; 
 }
 
-/* Dates styling */
+
 .dates {
     font-style: italic;
     font-weight: normal;
-    margin-left: 20px; /* Adjust margin to control spacing */
-    flex-grow: 1; /* Allow dates to take remaining space */
-    text-align: right; /* Align text to the right */
+    margin-left: 20px; 
+    flex-grow: 1; 
+    text-align: right; 
 }
 
-/* Job title styling */
+
 .job-title {
     font-weight: bold;
     margin-bottom: 5px;
 }
 
 
-/* Footer styling */
+
 footer {
     text-align: center;
-    padding: 2px 10px; /* Further reduced padding with left and right */
+    padding: 2px 10px; 
     background-color: white;
     color: black;
-    font-size: 12px; /* Reduced font size further */
-    position: fixed; /* Ensure footer is at the bottom */
+    font-size: 12px; 
+    position: fixed; 
     bottom: 0;
     left: 0;
     right: 0;
-    width: 100%; /* Ensure footer spans the full width */
+    width: 100%; 
 }
 
-/* Table styling */
+
 table {
     border-collapse: collapse;
     width: 100%;
@@ -280,7 +280,7 @@ th {
     cursor: pointer;
 }
 
-/* Search inputs styling */
+
 .search-inputs {
     margin-bottom: 10px;
 }
@@ -290,7 +290,7 @@ th {
     margin-bottom: 5px;
 }
 
-/* Responsive design for smaller screens */
+
 @media (max-width: 768px) {
     table, th, td {
         display: block;
