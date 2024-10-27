@@ -1,0 +1,68 @@
+[
+    {
+        "title": "Efficient Processing of Deep Neural Networks: A Tutorial and Survey",
+        "author": [
+            "Vivienne Sze",
+            "Yu-hsin Chen",
+            "Josiah Emer"
+        ],
+        "year": "2017",
+        "topic": "Deep Learning",
+        "venue": "Proceedings of the IEEE",
+        "description": "This book provides a structured treatment of the key principles and techniques for enabling efficient processing of deep neural networks (DNNs). It covers various aspects of DNN efficiency, including model compression, hardware acceleration, and software optimization. The book also discusses the trade-offs between accuracy, power consumption, and latency.",
+        "link": "https://arxiv.org/abs/1703.09039"
+    },
+    {
+        "title": "Low Power Design Essentials",
+        "author": "Jan M. Rabaey",
+        "year": "2009",
+        "topic": "Digital Systems Design",
+        "venue": "Springer",
+        "description": "This book provides a comprehensive overview of low-power design techniques for digital systems. It covers a wide range of topics, including power estimation, low-power circuit design, and architectural techniques for power reduction.",
+        "link": "https://books.google.com/books/edition/Low_Power_Design_Essentials/0131485681"
+    },
+    {
+        "title": "Computer Architecture: A Quantitative Approach",
+        "author": [
+            "John L. Hennessy",
+            "David A. Patterson"
+        ],
+        "year": "2011",
+        "topic": "Computer Architecture",
+        "venue": "Morgan Kaufmann",
+        "description": "This book provides a comprehensive introduction to computer architecture and design. It covers the fundamental principles of computer organization and design, including instruction set architecture, pipelining, memory hierarchy, and parallelism.",
+        "link": "https://books.google.com/books/edition/Computer_Architecture/6JHmBQAAQBAJ"
+    },
+    {
+        "title": "Joel on Software",
+        "author": "Joel Spolsky",
+        "year": "2004",
+        "topic": "Software Development",
+        "venue": "Apress",
+        "description": "A popular blog about software development, management, and the business of technology. It covers a wide range of topics, from technical advice to management tips.",
+        "link": "https://www.joelonsoftware.com/"
+    },
+    {
+        "title": "Digital Integrated Circuits: A Design Perspective",
+        "author": "Jan M. Rabaey, Anantha Chandrakasan, Borivoje Nikolic",
+        "year": "2003",
+        "topic": "Digital Systems Design",
+        "venue": "Pearson Education",
+        "description": "This book provides a comprehensive introduction to the design of digital integrated circuits. It covers a wide range of topics, including digital design fundamentals, CMOS technology, circuit design, and system-level design.",
+        "link": "https://books.google.com/books/edition/Digital_Integrated_Circuits/013090998X"
+    },
+    {
+        "title": "Inverse Heat Conduction: Ill-Posed Problems",
+        "author": [
+            "Keith A. Woodbury",
+            "Hamidreza Najafi",
+            "Filippo de Monte",
+            "James V. Beck"
+        ],
+        "year": "2002",
+        "topic": "Heat Transfer",
+        "venue": "Wiley",
+        "description": "This book explores the challenges and techniques for solving inverse heat conduction problems, which are often ill-posed due to their sensitivity to measurement noise and uncertainties.",
+        "link": "https://books.google.com/books/edition/Inverse_Heat_Conduction/0-7923-7395-X"
+    }
+]
