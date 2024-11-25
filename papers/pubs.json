@@ -8,6 +8,14 @@
         "slides": "none"
     },
     {
+        "title": "64 Bit (8x8) Synchronous Content-Addressable Memory (CAM)",
+        "authors": "Benjamin Kubwimana",
+        "journal": "Preprint",
+        "year": 2021,
+        "pdf": "papers/Content_Addressable_Memory.pdf",
+        "slides": "none"
+    },
+    {
         "title": "Numerical and experimental investigation of a thermoelectric-based radiant ceiling panel with phase change material for building cooling applications",
         "authors": "M Seyednezhad, H Najafi, B Kubwimana",
         "journal": "Sustainability 13 (21), 11936",

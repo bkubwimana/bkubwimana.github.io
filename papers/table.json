@@ -1,5 +1,77 @@
 [
     {
+        "title": "How to Evaluate Deep Neural Network Processors",
+        "author": "Vivienne Sze, Yu-Hsin Chen, Tien-Ju Yang, and Joel S. Emer",
+        "year": "2020",
+        "topic": "DNN Processors",
+        "venue": "ArXiv",
+        "description": "The article presents a framework to evaluate performance of DL accelerators. Including the Eyexam approach that extends the roofline model for performance profiling. Useful for co-design projects.",
+        "link": "https://eems.mit.edu/wp-content/uploads/2020/09/2020_sscs_dnn.pdf"
+    },
+    {
+        "title": "EdgeBERT: Sentence-Level Energy Optimizations for Latency-Aware Multi-Task NLP Inference",
+        "author": "Thierry Tambe, et al.",
+        "year": "2021",
+        "topic": "Edge Inference",
+        "venue": "ArXiv",
+        "description": "A SW/HW Co-design research building an accelerator for BERT inference optimized for latency and low energy consumption. They integrate fine grained DVFS, quantization, network pruning and adaptive attention mechanisms. The use of e-NVME for word embeddings is a novel approach that reduces data movement and energy consumption.",
+        "link": "https://arxiv.org/pdf/2011.14203"
+    },
+    {
+        "title": "Opportunities for neuromorphic computing algorithms and applications",
+        "author": "Catherine D. Schuman, et al.",
+        "year": "2022",
+        "topic": "Neuromorphic Computing",
+        "venue": "Nature Computational Science",
+        "description": "Authors present an overview of neuromorphic computational paradigms and usecases. They highlight a strong application in graph algorithms and optimization tasks. Spiking neural networks are discussed, challenges for integration in current programming schemes, and call for comprehensive benchmarks and metrics for neuromorphic computing.",
+        "link": "https://www.nature.com/articles/s43588-021-00184-y"
+    },
+    {
+        "title": "Eyeriss v2: A Flexible Accelerator for Emerging Deep Neural Networks on Mobile Devices",
+        "author": "Yu-Hsin Chen, Tien-Ju Yang, Joel Emer, Vivienne Sze",
+        "year": "2023",
+        "topic": "DNN Processors",
+        "venue": "ArXiv",
+        "description": "The authors illustrate the idea of processing in compressed domain for DNNs with sparse data. They employ a hierarchical mesh network to highlight the flexible nature of the Eyeriss Architecture. Their proposed improves energy efficiency and throughput for CNNs as illustrated with AlexNet and MobileNet.",
+        "link": "https://arxiv.org/pdf/2303.02890"
+    },
+    {
+        "title": "CAPE: A Content-Addressable Processing Engine",
+        "author": "Helena Caminal, et al.",
+        "year": "2021",
+        "topic": "Associative computing",
+        "venue": "ArXiv",
+        "description": "Authors employ the content addressable parallel processing paradigm to create an associative computing engine that uses RISC-V ISA. Presented as an in-situ processor-in-memory (SRAM-based PIM), CAPE showcases the advantages of integrating processing-in-memory in achieving significant performance increase. The work could use more demonstration of its use on applications such as sparse prone DNN workloads.",
+        "link": "https://arxiv.org/pdf/2303.02890"
+    },
+    {
+        "title": "DOSA: Differentiable Model-Based One-Loop Search for DNN Accelerators",
+        "author": "Charles Hong, et al.",
+        "year": "2023",
+        "topic": "DNN Processors",
+        "venue": "IEEE Xplore",
+        "description": "Authors illustrate the ability to create a differentiable and hence optimizable performance models for Design Space Exploration (DSE)",
+        "link": "https://people.eecs.berkeley.edu/~ysshao/assets/papers/dosa-micro2023.pdf"
+    },
+    {
+        "title": "MachSuite: Benchmarks for accelerator design and customized architectures",
+        "author": "Brandon Reagen, et al.",
+        "year": "2014",
+        "topic": "Benchmarking",
+        "venue": "IEEE Xplore",
+        "description": "MachSuite addresses the lack of standardization in accelerator research by providing a consistent set of benchmarks. MachSuite encompasses 19 benchmarks covering 12 distinct kernels,  including algorithms like AES encryption, backpropagation for neural networks, breadth-first search, and Fast Fourier Transform. The benchmarks are characterized across five dimensions: instruction mix, memory footprint, memory access patterns, temporal locality, and data-level parallelism.",
+        "link": "https://vlsiarch.eecs.harvard.edu/sites/hwpi.harvard.edu/files/vlsiarch/files/machsuite_benchmarks_for_accelerator_design_and_customized_architectures.pdf?m=1650898795"
+    },
+    {
+        "title": "Darwin-WGA: A co-processor provides increased sensitivity in whole genome alignments with high speedup",
+        "author": "Yatish Turakhia, Sneha D Goenka, Gill Bejerano, WIlliam J Dally",
+        "year": "2023",
+        "topic": "Genomics - Accelerators",
+        "venue": "ArXiv",
+        "description": "By integrating gapped filtering and efficient extension algorithms into a hardware accelerator, Darwin-WGA addresses the limitations of existing WGA tools, offering both increased sensitivity and performance. The extension phase uses GACT-X, an algorithm that performs dynamic programming-based alignment with constant memory traceback. Darwin-WGA is implemented on FPGA and ASIC platforms",
+        "link": "https://web.stanford.edu/~yatisht/pubs/darwin-wga.pdf"
+    },
+    {
         "title": "Distributed Inference and Fine-tuning of Large Language Models Over The Internet",
         "author": "Alexander Borzunov, Max Ryabinin, Artem Chumachenko, Dmitry Baranchuk, Tim Dettmers, Younes Belkada, Pavel Samygin, Colin Raffel",
         "year": "2023",
@@ -23,7 +95,43 @@
         "year": "2017",
         "topic": "Hardware Architecture",
         "venue": "IEEE Computer Magazine",
-        "description": "We describe the computing tasks involved in autonomous driving and examine existing autonomous driving computing platform implementations. To enable autonomous driving, the computing stack needs to provide high performance, low power consumption, and low thermal dissipation at low cost. We discuss possible approaches to design computing platforms that will meet these needs.",
+        "description": "It describes the computing tasks involved in autonomous driving and examine existing computing platform implementations. To enable autonomous driving, the computing stack needs to provide high performance, low power consumption, and low thermal dissipation at low cost. We discuss possible approaches to design computing platforms that will meet these needs.",
         "link": "https://doi.org/10.48550/arXiv.1702.01894"
+    },
+    {
+        "title": "Profiling Energy Consumption of Deep Neural Networks on NVIDIA Jetson Nano",
+        "author": "Stephan Holly, et al.",
+        "year": "2020",
+        "topic": "DNN Processors",
+        "venue": "IEEE Xplore",
+        "description": "Authors create two processes; one for power logging all 3 power rails, another for executing MobileNet inference. Authors measures inference latency from mem load to mem unload. Power is averaged and energy for inference is calculated. A parametric study is done to determine best HW (numofCPUs), cpu & GPU freq, sync vs async TensorRT inference",
+        "link": "https://publik.tuwien.ac.at/files/publik_293778.pdf"
+    },
+    {
+        "title": "An Analysis of Physics-Informed Neural Networks",
+        "author": "Edward Small",
+        "year": "2023",
+        "topic": "Neural Networks",
+        "venue": "ArXiv",
+        "description": "The thesis provides a practical example by applying a PINN to solve the 1D wave equation, analyzing error propagation, solution convergence, and the impact of network architecture on performance. Examines AD in the context of neural networks, comparing it against traditional methods like finite differences. AD ensures higher accuracy and smoothness when calculating derivatives of the network's output, crucial for PDE residuals",
+        "link": "https://arxiv.org/pdf/2303.02890"
+    },
+    {
+        "title": "NVIDIA MATHS: Mechanism to Access Test-Data Over High-Speed Links",
+        "author": "Mahmut Yilmaz, et al.",
+        "year": "2023",
+        "topic": "Silicon DFT",
+        "venue": "IEEE Xplore",
+        "description": "By leveraging PCIe interfaces, MATHS eliminates the need for traditional input/output (I/O) pins and associated memory per I/O requirements, thereby reducing dependency on expensive silicon test equipment.",
+        "link": "https://ieeexplore.ieee.org/document/10106244"
+    },
+    {
+        "title": "Distributed Inference with Deep Learning Models across Heterogeneous Edge Devices",
+        "author": "Chenghao Hu, Baochun Li",
+        "year": "2019",
+        "topic": "DL Inference",
+        "venue": "ACM Library",
+        "description": " ",
+        "link": "https://iqua.ece.toronto.edu/papers/chenghao-infocom22.pdf"
     }
 ]
