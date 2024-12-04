@@ -99,6 +99,15 @@
         "link": "https://doi.org/10.48550/arXiv.1702.01894"
     },
     {
+        "title": "Thermal Characterization of 3-D Stacked Heterogeneous Integration (HI) Package for High-Power Computing Applications",
+        "author": "Aakrati Jain, et al.",
+        "year": "2023",
+        "topic": "Die Packaging",
+        "venue": "IEEE Xplore",
+        "description": " ",
+        "link": "https://ieeexplore.ieee.org/document/10195618"
+    },
+    {
         "title": "Profiling Energy Consumption of Deep Neural Networks on NVIDIA Jetson Nano",
         "author": "Stephan Holly, et al.",
         "year": "2020",
