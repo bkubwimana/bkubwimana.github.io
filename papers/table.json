@@ -142,5 +142,14 @@
         "venue": "ACM Library",
         "description": " ",
         "link": "https://iqua.ece.toronto.edu/papers/chenghao-infocom22.pdf"
+    },
+    {
+        "title":"Reasoning Models Can Be Effective Without Thinking",
+        "author":"Wenjie Ma, Jingxuan He, Charlie Snell, Tyler Griggs, Sewon Min, Matei Zaharia",
+        "year": "2025",
+        "topic": "Reasoning models, Inference, Prompt Engineering",
+        "venue": "ArXiv",
+        "description": "This paper illustrates a novel approach to reasoning-model inference that is more efficient in token usage and delivers lower latency by skipping chain‑of‑thought (CoT) reasoning entirely. “No‑thinking” with parallel scaling achieves up to 7× lower latency (sometimes with higher accuracy on Math Olympiad benchmarks) and 4× less token usage compared to CoT with parallel scaling. Overall, “no‑thinking” offers a better trade‑off between accuracy and latency. Note: The paper’s definition of latency differs from practical GPU‑side measurements and may be somewhat confusing. If we profiled the paper' approach on an edge device can we tell the perf gain in these two inference approaches? Less power, memory and PU use? ",
+        "link": "https://arxiv.org/abs/2504.09858"
     }
 ]
