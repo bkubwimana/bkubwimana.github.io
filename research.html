@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/research_styles.css">
 </head>
+
 <body>
     <header>
         <nav>
@@ -34,20 +36,29 @@
             <article>
                 <h2>EdgeReasoning: Optimizing Reasoning LLM Deployment on Edge GPUs</h2>
                 <p>
-                    <strong>Benjamin Kubwimana, Qijing Jenny Huang (NVIDIA)</strong>
+                    <small><em>Benjamin Kubwimana, Qijing Jenny Huang (NVIDIA)</em></small>
                 </p>
                 <p>
-                    Edge intelligence is increasingly demanded by emerging autonomous systems such as robotics, offering privacy-preserving operation, 
-                    resilience in connectivity-limited environments, and significant energy and cost advantages over cloud-based solutions. However, 
-                    deploying large language models (LLMs) for reasoning tasks on edge GPUs faces critical challenges from strict latency constraints 
-                    and limited computational resources. Developers must balance multiple design factors—choosing reasoning versus non-reasoning architectures, 
-                    selecting appropriate model sizes, allocating token budgets, and applying test-time scaling strategies—to meet target latency and optimize accuracy.
+                    Edge intelligence is increasingly demanded by emerging autonomous systems such as robotics, offering
+                    privacy-preserving operation,
+                    resilience in connectivity-limited environments, and significant energy and cost advantages over
+                    cloud-based solutions. However,
+                    deploying large language models (LLMs) for reasoning tasks on edge GPUs faces critical challenges
+                    from strict latency constraints
+                    and limited computational resources. Developers must balance multiple design factors—choosing
+                    reasoning versus non-reasoning architectures,
+                    selecting appropriate model sizes, allocating token budgets, and applying test-time scaling
+                    strategies—to meet target latency and optimize accuracy.
                 </p>
                 <p>
-                    EdgeReasoning presents a comprehensive study characterizing the deployment of reasoning LLMs on edge GPUs. We systematically quantify 
-                    latency-accuracy tradeoffs across various LLM architectures and model sizes, evaluate prompt-based and model-tuning-based techniques for 
-                    reducing reasoning token length while maintaining performance quality, and profile test-time scaling methods with varying degrees of parallelism 
-                    to maximize accuracy under strict latency budgets. Through these analyses, EdgeReasoning maps the Pareto frontier of achievable accuracy-latency 
+                    EdgeReasoning presents a comprehensive study characterizing the deployment of reasoning LLMs on edge
+                    GPUs. We systematically quantify
+                    latency-accuracy tradeoffs across various LLM architectures and model sizes, evaluate prompt-based
+                    and model-tuning-based techniques for
+                    reducing reasoning token length while maintaining performance quality, and profile test-time scaling
+                    methods with varying degrees of parallelism
+                    to maximize accuracy under strict latency budgets. Through these analyses, EdgeReasoning maps the
+                    Pareto frontier of achievable accuracy-latency
                     configurations, offering systematic guidance for optimal edge deployment of reasoning LLMs.
                 </p>
             </article>
@@ -55,11 +66,16 @@
             <article>
                 <h2>Content Addresseable Memory (Physical Design with 3nm TSMC Technology)</h2>
                 <p>
-                    This study implements a 64bit Content addressable memory(CAM) in a 3nm technology with the goal of creating a design
-                    optimized for minimum energy delay and area product.  A 10-T NOR CAM bitcell architecture was chosen for
-                    its fast bit-matching as well as bigger noise margin. Search-line conditioning was eliminated to reduce energy consumption,
-                    additionally, the write-enable signal was used to disable SLs during writing. Minimum sized transistors were used to optimize for area
-                    and energy. Implimented using Synopsys Design Compiler, the design was optimized for minimum EDA product with successful post-layout simulations.
+                    This study implements a 64bit Content addressable memory(CAM) in a 3nm technology with the goal of
+                    creating a design
+                    optimized for minimum energy delay and area product. A 10-T NOR CAM bitcell architecture was chosen
+                    for
+                    its fast bit-matching as well as bigger noise margin. Search-line conditioning was eliminated to
+                    reduce energy consumption,
+                    additionally, the write-enable signal was used to disable SLs during writing. Minimum sized
+                    transistors were used to optimize for area
+                    and energy. Implimented using Synopsys Design Compiler, the design was optimized for minimum EDA
+                    product with successful post-layout simulations.
                 </p>
             </article>
 
@@ -67,23 +83,32 @@
                 <h2>Physics-informed neural network for inverse heat conduction estimation in electronic packages</h2>
                 <p>
                     The novelity of this study lies in the ability to perform thermal simulation studies solely based on
-                    microarchitectural performance and power simulations, an area that lacks support during pre-silicon design
-                    phase. Additionally, engineers can use the provided inverse conduction modeling approach to create and
-                    analyse chip surface heat maps while performing physical chip thermal characterization. The latter comes useful in hotspot identification and during
-                    troubleshooting of various cooling solutions, including interface materials, heatspreaders and vapour
-                    chambers, without having the need to invest in expensive IR cameras and complex setups for surface die heat maps.
+                    microarchitectural performance and power simulations, an area that lacks support during pre-silicon
+                    design
+                    phase. Additionally, engineers can use the provided inverse conduction modeling approach to create
+                    and
+                    analyse chip surface heat maps while performing physical chip thermal characterization. The latter
+                    comes useful in hotspot identification and during
+                    troubleshooting of various cooling solutions, including interface materials, heatspreaders and
+                    vapour
+                    chambers, without having the need to invest in expensive IR cameras and complex setups for surface
+                    die heat maps.
                 </p>
             </article>
 
             <article>
                 <h2>Machine Learning assisted building energy modeling (Surrogate modeling for physics models)</h2>
                 <p>
-                    A research study as part of masters thesis at Florida Tech; we focused on building a machine learning model for ML-assisted Building Energy Models (BEMs). 
-                    We developed an efficient approach to design space exploration for training the model by creating a Python-based automation program 
-                    that used EnergyPlus solvers and APIs to iteratively generate various physical models within a search space.
+                    A research study as part of masters thesis at Florida Tech; we focused on building a machine
+                    learning model for ML-assisted Building Energy Models (BEMs).
+                    We developed an efficient approach to design space exploration for training the model by creating a
+                    Python-based automation program
+                    that used EnergyPlus solvers and APIs to iteratively generate various physical models within a
+                    search space.
                 </p>
             </article>
         </section>
     </main>
 </body>
+
 </html>

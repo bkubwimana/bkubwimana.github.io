@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Personal webpage of Benjamin Kubwimana">
     <title>BEN</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/research_styles.css">
 </head>
+
 <body>
     <header>
         <nav>
@@ -26,21 +29,23 @@
             </ul>
         </nav>
     </header>
-<main>
-    <h2>Publications</h2>
-    <ul class="publications-list" id="publications-list">
-        <!-- Publications -->
-    </ul>
-</main>
-<script>
-    // Fetch and display 
-    fetch('papers/pubs.json')
-        .then(response => response.json())
-        .then(data => {
-            const publicationsList = document.getElementById('publications-list');
-            data.forEach(publication => {
-                const listItem = document.createElement('li');
-                listItem.innerHTML = `
+    <main>
+        <section id="publications">
+            <h1>Publications</h1>
+            <ul class="publications-list" id="publications-list">
+                <!-- Publications -->
+            </ul>
+        </section>
+    </main>
+    <script>
+        // Fetch and display 
+        fetch('papers/pubs.json')
+            .then(response => response.json())
+            .then(data => {
+                const publicationsList = document.getElementById('publications-list');
+                data.forEach(publication => {
+                    const listItem = document.createElement('li');
+                    listItem.innerHTML = `
                     <span class="publication-title">${publication.title}</span>
                     <div class="publication-details">
                         ${publication.authors}<br>
@@ -52,10 +57,11 @@
                         </span>
                     </div>
                 `;
-                publicationsList.appendChild(listItem);
-            });
-        })
-        .catch(error => console.error('Error fetching publications:', error));
-</script>
+                    publicationsList.appendChild(listItem);
+                });
+            })
+            .catch(error => console.error('Error fetching publications:', error));
+    </script>
 </body>
+
 </html>
