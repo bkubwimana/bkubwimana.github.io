@@ -32,12 +32,23 @@
             <h1>Research Highlights</h1>
 
             <article>
-                <h2>Performance Characterization of NVIDIA's Tegra Orin SoC (Research in progress)</h2>
+                <h2>EdgeReasoning: Optimizing Reasoning LLM Deployment on Edge GPUs</h2>
                 <p>
-                    In collaboration with Dr. Jenny Huang, Research Scientist at NVIDIA, I am conducting a performance 
-                    characterization of the Tegra Orin SoC, focusing on its efficiency with intensive multimodal vision-language models. 
-                    We aim to understand critical bottlenecks in the system for such workloads, including memory bandwidth limitations, computational latency, and thermal constraints.
-                    This reseach is also a preparation for my PhD research aspirations in novel microarchitecture for accelerated inference on edge systems. 
+                    <strong>Benjamin Kubwimana, Qijing Jenny Huang (NVIDIA)</strong>
+                </p>
+                <p>
+                    Edge intelligence is increasingly demanded by emerging autonomous systems such as robotics, offering privacy-preserving operation, 
+                    resilience in connectivity-limited environments, and significant energy and cost advantages over cloud-based solutions. However, 
+                    deploying large language models (LLMs) for reasoning tasks on edge GPUs faces critical challenges from strict latency constraints 
+                    and limited computational resources. Developers must balance multiple design factors—choosing reasoning versus non-reasoning architectures, 
+                    selecting appropriate model sizes, allocating token budgets, and applying test-time scaling strategies—to meet target latency and optimize accuracy.
+                </p>
+                <p>
+                    EdgeReasoning presents a comprehensive study characterizing the deployment of reasoning LLMs on edge GPUs. We systematically quantify 
+                    latency-accuracy tradeoffs across various LLM architectures and model sizes, evaluate prompt-based and model-tuning-based techniques for 
+                    reducing reasoning token length while maintaining performance quality, and profile test-time scaling methods with varying degrees of parallelism 
+                    to maximize accuracy under strict latency budgets. Through these analyses, EdgeReasoning maps the Pareto frontier of achievable accuracy-latency 
+                    configurations, offering systematic guidance for optimal edge deployment of reasoning LLMs.
                 </p>
             </article>
 

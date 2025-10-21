@@ -1,5 +1,13 @@
 [
     {
+        "title": "EdgeReasoning: Optimizing Reasoning LLM Deployment on Edge GPUs",
+        "authors": "Benjamin Kubwimana, Qijing Jenny Huang",
+        "journal": "IEEE International Symposium on Workload Characterization (IISWC)",
+        "year": 2025,
+        "pdf": "papers/EdgeReasoning.pdf",
+        "slides": "papers/EdgeReasoning_ppt.pdf"
+    },
+    {
         "title": "A novel approach for optimizing building energy models using machine learning algorithms",
         "authors": "B Kubwimana, H Najafi",
         "journal": "Energies 16 (3), 1033",
