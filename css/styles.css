@@ -296,6 +296,25 @@ th {
     cursor: pointer;
 }
 
+.smart-bike-table {
+    margin: 25px 0;
+}
+
+.smart-bike-table caption {
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.smart-bike-table th {
+    cursor: default;
+}
+
+.smart-bike-table td {
+    vertical-align: top;
+    line-height: 1.45;
+}
+
 
 .search-inputs {
     margin-bottom: 10px;
@@ -332,5 +351,36 @@ th {
         padding-left: 10px;
         font-weight: bold;
         text-align: left;
+    }
+
+    .smart-bike-table thead {
+        display: none;
+    }
+
+    .smart-bike-table tr {
+        display: block;
+        margin-bottom: 15px;
+        border: 1px solid black;
+    }
+
+    .smart-bike-table td {
+        display: grid;
+        grid-template-columns: minmax(105px, 35%) 1fr;
+        gap: 12px;
+        width: auto;
+        padding: 10px;
+        border: 0;
+        border-bottom: 1px solid #ddd;
+        text-align: left;
+    }
+
+    .smart-bike-table td:last-child {
+        border-bottom: 0;
+    }
+
+    .smart-bike-table td::before {
+        position: static;
+        width: auto;
+        padding: 0;
     }
 }
