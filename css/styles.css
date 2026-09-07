@@ -315,6 +315,12 @@ th {
     line-height: 1.45;
 }
 
+.hobby-project {
+    margin-top: 45px;
+    padding-top: 30px;
+    border-top: 1px solid #ddd;
+}
+
 
 .search-inputs {
     margin-bottom: 10px;

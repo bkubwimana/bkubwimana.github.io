@@ -37,7 +37,7 @@
     <main>
         <section>
             <article>
-                <h2>Smart bike evolution</h2>
+                <h2>Smart bicycle evolution</h2>
                 <p>
                     A bicycle is already an elegant machine: human power, gears, brakes, and balance working with very
                     little between the rider and the road. A smart e-bike preserves that experience while adding the
@@ -45,7 +45,7 @@
                 </p>
 
                 <table class="smart-bike-table">
-                    <caption>A smart e-bike as a hardware–software co-designed system</caption>
+                    <caption>A conceptual smart e-bike system stack</caption>
                     <thead>
                         <tr>
                             <th>System</th>
@@ -97,7 +97,7 @@
                 <p>
                     The complexity is in making all of these layers disappear. Like a modern electric car, the best
                     system feels simple because the sensing, power electronics, firmware, connectivity, and mechanics
-                    have been designed to behave as one.
+                    can be designed to behave as one.
                 </p>
                 <p>
                     Aventon's newer bikes are an interesting example. Its
@@ -112,6 +112,49 @@
                         Referral link: You receive $60 off your first e-bike order.
                     </small>
                 </p>
+            </article>
+
+            <article class="hobby-project">
+                <h2>DIY bicycle ARAS</h2>
+                <p>
+                    I am exploring a simple Advanced Rider Assistance System (ARAS) for bicycles as a hobby research
+                    project. The initial prototype would pair a camera with a small edge accelerator to run perception
+                    locally and provide useful information to the rider. Steering and braking would remain fully under
+                    rider control.
+                </p>
+
+                <table class="smart-bike-table">
+                    <caption>Initial research questions</caption>
+                    <thead>
+                        <tr>
+                            <th>Prototype layer</th>
+                            <th>Initial role</th>
+                            <th>Question to explore</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-label="Prototype layer"><strong>Camera</strong></td>
+                            <td data-label="Initial role">Capture the road environment from the bicycle</td>
+                            <td data-label="Question to explore">What placement gives a useful field of view while tolerating vibration?</td>
+                        </tr>
+                        <tr>
+                            <td data-label="Prototype layer"><strong>Edge accelerator</strong></td>
+                            <td data-label="Initial role">Run lightweight perception models on the bicycle</td>
+                            <td data-label="Question to explore">What latency, power, and thermal limits are practical on a ride?</td>
+                        </tr>
+                        <tr>
+                            <td data-label="Prototype layer"><strong>Perception</strong></td>
+                            <td data-label="Initial role">Experiment with detecting relevant road users and conditions</td>
+                            <td data-label="Question to explore">How robust can a small model be across motion, lighting, and weather?</td>
+                        </tr>
+                        <tr>
+                            <td data-label="Prototype layer"><strong>Rider interface</strong></td>
+                            <td data-label="Initial role">Communicate selected alerts without controlling the bicycle</td>
+                            <td data-label="Question to explore">Which alerts are useful without adding distraction?</td>
+                        </tr>
+                    </tbody>
+                </table>
             </article>
         </section>
     </main>
