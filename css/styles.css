@@ -37,6 +37,22 @@ img.profile-picture {
     body {
         width: 100%; 
         padding: 0 10px; 
+        box-sizing: border-box;
+    }
+
+    header {
+        box-sizing: border-box;
+    }
+
+    nav > ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav > ul > li > a {
+        padding: 7px;
+        font-size: .9rem;
     }
 }
 

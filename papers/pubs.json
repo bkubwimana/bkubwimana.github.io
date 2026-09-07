@@ -1,5 +1,13 @@
 [
     {
+        "title": "Energy-Efficient Multimodal Inference Serving with Tri-serve",
+        "authors": "Ziyang Jia, Sara Rashidi Golrouye, Laxmi Bhuyan, Benjamin Kubwimana, Devashree Tripathy, Zexin Li, Cong Liu, Daniel Wong",
+        "journal": "arXiv preprint arXiv:2606.29629",
+        "year": 2026,
+        "pdf": "https://arxiv.org/pdf/2606.29629",
+        "slides": "none"
+    },
+    {
         "title": "EdgeReasoning: Optimizing Reasoning LLM Deployment on Edge GPUs",
         "authors": "Benjamin Kubwimana, Qijing Jenny Huang",
         "journal": "IEEE International Symposium on Workload Characterization (IISWC)",
