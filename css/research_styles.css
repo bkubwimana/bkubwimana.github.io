@@ -20,6 +20,26 @@
     line-height: 1.6;
 }
 
+.research-questions {
+    margin: 0.25em 0 1.25em;
+    padding-left: 1em;
+    border-left: 2px solid #007BFF;
+}
+
+.research-questions strong {
+    font-size: 0.95em;
+}
+
+.research-questions ul {
+    margin: 0.4em 0 0;
+    padding-left: 1.2em;
+}
+
+.research-questions li {
+    margin-bottom: 0.3em;
+    line-height: 1.5;
+}
+
 section {
     margin: 60px 20px 0px 10px;
     
